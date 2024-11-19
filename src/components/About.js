@@ -1,3 +1,5 @@
+import logo_about from '../images/about.jpeg'
+
 const About = () => {
     return (
         <section className="section" id="about">
@@ -10,7 +12,7 @@ const About = () => {
             <div className="section-center about-center">
                 <div className="about-img">
                     <img
-                        src="./images/about.jpeg"
+                        src={logo_about}
                         className="about-photo"
                         alt="awesome beach"
                     />
