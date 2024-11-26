@@ -1,3 +1,8 @@
+import tibetImg from './images/tour-1.jpeg'
+import javaImg from './images/tour-2.jpeg'
+import hongKongImg from './images/tour-3.jpeg'
+import kenyaImg from './images/tour-4.jpeg'
+
 export const pageLinks = [
     { id: 1, href: '#home', text: 'home' },
     { id: 2, href: '#about', text: 'about' },
@@ -50,7 +55,7 @@ export const tourList = [
         title: 'tibet adventure',
         icon: 'fas fa-map',
         text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.',
-        img: '',
+        img: tibetImg,
         location: 'china',
         duration: '6 days',
         price: 'from $2100',
@@ -61,7 +66,7 @@ export const tourList = [
         title: 'best of java',
         icon: 'fas fa-map',
         text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.',
-        img: '',
+        img: javaImg,
         location: 'indonesia',
         duration: '11 days',
         price: 'from $1400',
@@ -72,7 +77,7 @@ export const tourList = [
         title: 'explore hong kong',
         icon: 'fas fa-map',
         text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.',
-        img: '',
+        img: hongKongImg,
         location: 'hong kong',
         duration: '8 days',
         price: 'from $5000',
@@ -83,7 +88,7 @@ export const tourList = [
         title: 'kenya highlights',
         icon: 'fas fa-map',
         text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.',
-        img: '',
+        img: kenyaImg,
         location: 'kenya',
         duration: '20 days',
         price: 'from $3300',
