@@ -17,17 +17,19 @@ const Footer = () => {
         })}
       </ul>
 
+      {/* Same function however we remove link. by adding the const */}
       <ul className="footer-icons">
         {socialLinks.map((link) => {
+          const { id, href, icon } = link;
           return (
-            <li key={link.id}>
+            <li key={id}>
               <a
-                href={link.href}
+                href={href}
                 target="_blank"
                 rel="noreferrer"
                 className="footer-icon"
               >
-                <i className={link.icon}></i>
+                <i className={icon}></i>
               </a>
             </li>
           );
